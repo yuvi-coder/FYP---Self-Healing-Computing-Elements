@@ -1,3 +1,18 @@
+## MSB and LSB :
+* In binary, the MSB (Most Significant Bit) is the leftmost bit with the highest value (greatest impact on the number's magnitude, like the '5' in 539), while the LSB (Least Significant Bit) is the rightmost bit with the lowest value (smallest contribution, like the '9' in 539).
+* They define the extremes of a binary number, with MSB representing the highest power of 2 and LSB representing \(2^{0}\) (or 1).
+
+### Most Significant Bit (MSB)
+* Position: Leftmost bit in a binary sequence.
+* Value: Carries the largest positional weight (e.g., 128 in an 8-bit number).
+* Impact: Changing the MSB causes the biggest change in the overall numerical value.
+### Least Significant Bit (LSB)
+* Position: Rightmost bit in a binary sequence.
+* Value: Carries the smallest positional weight, always \(2^{0}=1\).
+* Impact: Changing the LSB causes the smallest change in the overall numerical value (just +1 or -1).
+
+### Example: Binary number 10110 MSB: The '1' on the far left, representing \(1\times 2^{4}\) (16).LSB: The '0' on the far right, representing \(0\times 2^{0}\) (0).Decimal Value: (16) + (0) + (4) + (2) + (0) = 22. 
+
 ## Memory
 * SDRAM (Synchronous Dynamic RAM) is fast, volatile memory for active programs, losing data without power, while Flash memory is slower, non-volatile storage for persistent data (OS, files) in devices like SSDs and USB drives, retaining info without power.
 * SDRAM acts as the computer's short-term "working memory," while Flash serves as long-term storage, with both technologies crucial for different functions in a system, balancing speed, cost, and data persistence. 
