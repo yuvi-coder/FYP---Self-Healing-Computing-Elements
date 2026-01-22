@@ -11,7 +11,8 @@
 * Value: Carries the smallest positional weight, always \(2^{0}=1\).
 * Impact: Changing the LSB causes the smallest change in the overall numerical value (just +1 or -1).
 
-### Example: Binary number 10110 MSB: The '1' on the far left, representing \(1\times 2^{4}\) (16).LSB: The '0' on the far right, representing \(0\times 2^{0}\) (0).Decimal Value: (16) + (0) + (4) + (2) + (0) = 22. 
+### Example: Binary number 10110 MSB:
+* The '1' on the far left, representing \(1\times 2^{4}\) (16).LSB: The '0' on the far right, representing \(0\times 2^{0}\) (0).Decimal Value: (16) + (0) + (4) + (2) + (0) = 22. 
 
 ## Memory
 * SDRAM (Synchronous Dynamic RAM) is fast, volatile memory for active programs, losing data without power, while Flash memory is slower, non-volatile storage for persistent data (OS, files) in devices like SSDs and USB drives, retaining info without power.
